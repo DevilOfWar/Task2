@@ -48,7 +48,7 @@ namespace Task2
             result.Z -= second.Z;
             return result;
         }
-        public static Vector operator *(Vector vector, int number)
+        public static Vector operator *(Vector vector, double number)
         {
             Vector result = new Vector(0, 0, 0);
             result.X += vector.X * number;
